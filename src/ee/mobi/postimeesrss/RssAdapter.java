@@ -36,13 +36,10 @@ public class RssAdapter extends BaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		if (convertView == null) {
-			convertView = View.inflate(context,
-					android.R.layout.simple_list_item_2, null);
+			convertView = View.inflate(context, android.R.layout.simple_list_item_2, null);
 		}
-		TextView primary = (TextView) convertView
-				.findViewById(android.R.id.text1);
-		TextView secondary = (TextView) convertView
-				.findViewById(android.R.id.text2);
+		TextView primary = (TextView) convertView.findViewById(android.R.id.text1);
+		TextView secondary = (TextView) convertView.findViewById(android.R.id.text2);
 
 		ListItem listItem = (ListItem) getItem(position);
 
