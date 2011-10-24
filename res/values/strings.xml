@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list_empty">Loading...</string>
+    <string name="network_error">Network error. Please check your connection and try again</string>
+    <string name="app_name">PostimeesRss</string>
+</resources>
